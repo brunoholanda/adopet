@@ -1,0 +1,61 @@
+
+@import url(variaveis.css);
+@import url(_base.css);
+
+
+
+body{
+    background-image: 
+    url('../img/onda-cabecalho.svg'), 
+    url('../img/onda-lateral.svg'), 
+    url('../img/adopet-ilustracao.png');
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 86px center;
+   
+    height: 100vh;
+    font-size: var(--fonte-principal);
+    font-size: 16px;
+    
+}
+
+.bg-azul {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+}
+
+.tipografia {
+    position: center;
+    width: 50%;
+    margin: 3em;
+}
+
+.conteudo {
+    text-align: center;
+    height: 70%;
+    margin: 0 auto;
+    
+    flex: 1;
+    
+}
+
+.conteudo__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundario);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.conteudo__chamada {
+    color: var(--branco);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1em 0;
+}
+
+
+

@@ -1,0 +1,95 @@
+@import url(variaveis.css);
+@import url(_base.css);
+
+body {
+    
+    background-image: url('../img/onda-cabecalho.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+   
+    height: 100vh;
+    font-size: var(--fonte-principal);
+    font-size: 16px;
+    
+}
+
+
+.conteudo {
+    text-align: center;
+    margin: 80px 0 2rem;
+    padding-inline: 8rem;
+    flex: 1;
+    
+}
+
+.conteudo__titulo {
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card {
+    
+    display: flex;
+    background-color: var(--cinza-claro);
+    margin-bottom: 1.2rem;
+    
+}
+
+.card__imagem {
+    margin: 1.5rem;
+}
+
+.card__descricao {
+    padding: 1rem;
+}
+
+.descricao__titulo {
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: .5rem;
+}
+
+.descricao__texto {
+    word-wrap: break-word;
+    width: 120px;
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.descircao__localizacao {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0.5rem;
+
+}
+
+.descricao__mensagem {
+    background-image: url('../img/ícone-falarcom.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    padding-left: 1.6rem;
+}

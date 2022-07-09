@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoPet</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/perfil.css">
+    
+</head>
+<body class="bg-azul">
+
+    <header class="cabecalho">
+        <a href="home.html"><img src="img/Casa.png" alt="Ir para a pagina inicial da AdoPet" class="botao__cabecalho"></a>
+        <a href="contato.html"><img src="img/Mensagens.png" alt="Checar mensagens da AdoPet" class="botao__cabecalho"></a>
+        <a href="perfil.html"><img src="img/usuario.png" alt="acessar meu perfil" class="botao__perfil"></a>
+    </header>    
+   
+    <main class="conteudo">
+        <h1 class="conteudo__titulo">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</h1>
+    </main>
+
+    <form class="contato">
+        <h1 class="perfil">Perfil</h1>
+        <p class="formulario">Foto</p>
+            <div class="foto-perfil">
+                <img src="img/foto-perfil.png" alt="foto do perdil" class="perfil__foto">
+                <a href="#" class="perfil__alterar-foto">Clique na foto para editar</a>
+            </div>
+        <label for="nomesobrenome" class="formulario">Nome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Joana Magalhães">
+        <label for="telefone" class="formulario">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="55 11 XXXXXXXXX">
+        <label for="telefone" class="formulario">Cidade</label>
+        <input type="text" id="telefone" class="input-padrao" required placeholder="São Paulo">
+        <label class="formulario" for="mensagem">Sobre</label>
+    	<textarea cols="70" rows="10" id="mensagem" class="input-padrao input-padrao__mensagem" required placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
+        <a href="#" class="conteudo__link-enviar">Enviar</a>
+    </form>
+
+    
+
+<footer class="rodape">
+    <p class="rodape__texto">2022 - Desenvolvido por Alura</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url(variaveis.css);
+@import url(_base.css);
+
+body {
+    
+    background-image: url('../img/onda-cabecalho.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+   
+    height: 100vh;
+    font-size: var(--fonte-principal);
+    font-size: 16px;
+    
+}
+
+.bg-azul {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    text-align: center;
+    margin: 80px 0 1rem;
+    padding-inline: 8rem;
+    flex: 1;
+    
+}
+
+.conteudo__titulo {
+    color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contato {
+    height: 100%;
+    margin: 0 1.5em 2em 1.5em;
+    flex: 1;
+    background: var(--cinza-claro);
+    padding: 1.5em;
+    border-radius: 10px;
+    
+}
+
+.formulario {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.input-padrao {
+    
+    display: block;
+    text-align: center;
+    margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    color: var(--cinza-medio);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 6px;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  
+}
+
+.input-padrao__mensagem {
+   align-self: initial;
+}
+
+.perfil {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.perfil__foto {
+    text-align: center;
+}
+
+.perfil__alterar-foto {
+    color: var(--vermelho);
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    text-align: center;
+}

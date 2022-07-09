@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoPet</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contato.css">
+    
+</head>
+<body class="bg-azul">
+
+    <header class="cabecalho">
+        <a href="home.html"><img src="img/Casa.png" alt="Ir para a pagina inicial da AdoPet" class="botao__cabecalho"></a>
+        <a href="contato.html"><img src="img/Mensagens.png" alt="Checar mensagens da AdoPet" class="botao__cabecalho"></a>
+        <a href="perfil.html"><img src="img/usuario.png" alt="acessar meu perfil" class="botao__perfil"></a>
+    </header>    
+   
+    <main class="conteudo">
+        <h1 class="conteudo__titulo">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</h1>
+    </main>
+
+    <form class="contato">
+        <label for="nomesobrenome" class="formulario">Nome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Insira seu nome completo">
+        <label for="telefone" class="formulario">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="Insira seu telefone e/ou whatsapp">
+        <label for="telefone" class="formulario">Nome do animal</label>
+        <input type="text" id="telefone" class="input-padrao" required placeholder="Por qual animal você se interessou?">
+        <label class="formulario" for="mensagem">Mensagem</label>
+    	<textarea cols="70" rows="10" id="mensagem" class="input-padrao input-padrao__mensagem" required placeholder="Escreva sua mensagem."></textarea>
+        <a href="#" class="conteudo__link-enviar">Enviar</a>
+    </form>
+
+    
+
+<footer class="rodape">
+    <p class="rodape__texto">2022 - Desenvolvido por Alura</p>
+</footer>
+</body>
+</html>
