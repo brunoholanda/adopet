@@ -5,12 +5,22 @@
 }
 
 .cabecalho {
+    display: flex;
+    flex-direction: row;
     padding: 3em;
 }
 
-.botao__cabecalho {
-    margin: 1.5em;
+.botao__logo {
+    display: none;
 }
+
+.botao__cabecalho {
+    
+    width: 35%;
+    margin: 1.5em 1em 2em 3em;
+}
+
+
 
 .botao__perfil {
     margin: 1em 1em 0 17em;
@@ -40,6 +50,7 @@
     line-height: 24px;
     text-decoration: none;
     width: 12rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -75,4 +86,46 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+@media screen and (min-width: 1024px) {
+    .botao__logo {
+        display: flex;
+        width: 110%;
+        margin: 1.5em 1em 2em 0em;
+    }
+
+    .conteudo__link {
+        margin: 0 auto 1em auto;
+        display: block;
+        background-color: var(--vermelho);
+        border-radius: 6px;
+        padding: 0.5em;
+        color: var(--branco);
+        font-family: var(--fonte-principal);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration: none;
+        width: 20rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+
+    .botao__perfil {
+        
+       
+        margin: 1em 1em 0 40em;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .botao__perfil {
+        margin: 1em 1em 0 86em;
+        width: 70px;
+    }
+    
+}
+
 

@@ -13,24 +13,26 @@
 </head>
     <body class="bg-azul">
         <header class="cabecalho">
+            <a href="index.html"><img src="img/Logo-tablet.png" alt="logo da pagina adopet" class="botao__logo"></a>
             <a href="home.html"><img src="img/Casa.png" alt="Ir para a pagina inicial da AdoPet" class="botao__cabecalho"></a>
             <a href="contato.html"><img src="img/Mensagens.png" alt="Checar mensagens da AdoPet" class="botao__cabecalho"></a>
         </header>    
        
         <main class="cadastro">
-            <img src="img/Logo-azul.png" alt="adopet logo azul inicial" class="logo-azul">
-            <h1 class="cadastro__titulo">Ainda não tem cadastro?</h1>
-            <p class="cadastro__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+            <img src="img/Logo-azul.svg" alt="adopet logo azul inicial" class="logo-azul">
+            <h1 class="cadastro__titulo">Ainda não tem cadastro? Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</h1>
         
-                <form>
-                    <label for="email" class="formulario">Email</label>
+                <form class="formulario">
+                    <label for="email" class="formulario__titulo">Email</label>
                     <input type="email" id="email" class="input-padrao" required placeholder="Escolha seu melhor email">
-                    <label for="nomesobrenome" class="formulario">Nome</label>
+                    <label for="nomesobrenome" class="formulario__titulo">Nome</label>
                     <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
-                    <label for="senha" class="formulario">Senha</label>
-                    <input type="password" id="senha" class="input-padrao__senha input-padrao" required placeholder="Crie uma senha">
-                    <label for="senha" class="formulario">Confirme sua senha</label>
-                    <input type="password" id="senha" class="input-padrao__senha input-padrao" required placeholder="Repita a senha criada acima">
+                    <label for="senha" class="formulario__titulo">Senha</label>
+                        <form class="formulario__senha">
+                            <input type="password" id="senha" class="input-padrao__senha input-padrao" required placeholder="Crie uma senha">
+                            <label for="senha" class="formulario__titulo">Confirme sua senha</label>
+                            <input type="password" id="senha" class="input-padrao__senha input-padrao" required placeholder="Repita a senha criada acima">
+                        </form>
                 </form>
                     <a href="#" class="conteudo__link">Cadastrar</a>
         </main>

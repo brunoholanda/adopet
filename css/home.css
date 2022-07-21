@@ -33,7 +33,6 @@ body {
 }
 
 .card {
-    
     display: flex;
     background-color: var(--cinza-claro);
     margin-bottom: 1.2rem;
@@ -92,4 +91,53 @@ body {
     font-size: 10px;
     line-height: 16px;
     padding-left: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .conteudo__titulo {
+        font-size: 18px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 1em 1em 1em;
+        
+    }
+
+    .card {
+        flex-basis: 50%;
+        flex-grow: 1;
+       
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+    body {
+    
+        background-image: 
+        url('../img/onda-cabecalho.svg'), 
+        url('../img/onda-lateral.svg');
+        
+        background-repeat: no-repeat;
+        background-position: left top, right center;
+       
+        height: 100vh;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 10em 6em 10em;
+        
+    }
+
+    .card {
+        flex-basis: 33%;
+        flex-grow: 1;
+       
+    }
 }

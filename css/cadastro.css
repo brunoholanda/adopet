@@ -41,15 +41,7 @@ body{
     line-height: 48px;
 }
 
-.cadastro__texto {
-   
-    color: var(--azul);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 1em 0;
-}
+
 
 form {
     
@@ -57,7 +49,7 @@ form {
     
 }
 
-.formulario {
+.formulario__titulo {
     
     font-style: normal;
     font-weight: 400;
@@ -68,12 +60,14 @@ form {
 }
 
 form {
-    width: 100%;
+    align-items: center;
+    margin: auto;
+    width: 90%;
 }
 
 .input-padrao {
     
-    display: block;
+    
     text-align: center;
     margin: 0 0 20px;
 	padding: 10px 25px;
@@ -87,6 +81,8 @@ form {
     border-radius: 6px;
     background: #F7F7F7;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    border: none;
   
 }
 
@@ -95,3 +91,55 @@ form {
     background-repeat: no-repeat;
     background-position: center right 10px;
 }
+
+.esqueci__senha {
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .cadastro__titulo {
+    
+        color: var(--azul);
+        font-family: var(--fonte-principal);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0 15em 0 15em;
+    }
+
+    .formulario__titulo {
+        font-family: var(--fonte-principal);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--cinza-escuro);      
+    }
+
+    form {
+        align-items: center;
+        margin: auto;
+        width: 40%;
+    }
+
+    .input-padrao {
+        font-size: 14px;
+      
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    form:nth-child(3) {
+        align-items: center;
+        margin: auto;
+        width: 40%;
+    }
+     
+}
+

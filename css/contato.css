@@ -70,8 +70,9 @@ body {
     font-size: 14px;
     line-height: 24px;
     border-radius: 6px;
-    background: #F7F7F7;
+    background: var(--branco);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border: none;
   
 }
 
@@ -79,23 +80,33 @@ body {
    align-self: initial;
 }
 
-.perfil {
+::placeholder {
     font-family: var(--fonte-principal);
-    color: var(--cinza-escuro);
-    font-style: normal;
-    text-align: center;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 24px;
-}
+  }
 
-.perfil__foto {
-    text-align: center;
-}
+@media screen and (min-width: 1024px) {
+    .conteudo__titulo {
+        text-align: center;
+        color: var(--azul);
+        font-family: var(--fonte-principal);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 10em 0 10em;
+    }
+    
+   
 
-.perfil__alterar-foto {
-    color: var(--vermelho);
-    font-family: var(--fonte-principal);
-    text-decoration: none;
-    text-align: center;
+    form {
+        
+        margin: auto;
+        width: 50%;
+        
+    }
+
+     .input-padrao {
+        font-size: 14px;
+      
+    }
 }
